@@ -1,0 +1,52 @@
+/*
+Redefine / override some properties from the basic-show style file
+
+ */
+.toptab {
+    background: #707070;
+    color: #f0f0f0;
+    font-weight: 400;
+    margin: 0 0 0 5px;
+    padding: 5px 10px 5px;
+    text-decoration: none;
+}
+
+.toptabs {
+    font-size: 1.25em !important;
+    right: 0%;
+    top: 4px;
+    height: 15px
+}
+
+#detailsbox-main {
+    background: #fff;
+    border: 4px solid #ff8833
+}
+
+/*;position:absolute;right:5%;width:25%;padding:20px}*/
+#maincontent-main {
+    background: #fff;
+    border: 4px solid #ff8833;
+    right: 0%;
+    width: 20%;
+    padding: 20px
+}
+
+.article {
+    background: #fff;
+    border: 4px solid #ff8833;
+    padding: 25px;
+    margin-top:10px;
+}
+nav > div > ul > li > a {
+    font-size: 1.5em;
+}
+h2 {
+    margin:25px 0 0px;
+    color:#ff8833!important;
+}
+@media only screen and (max-width: 500px) {
+    h2 {
+        font-size: 1em;
+    }
+}
